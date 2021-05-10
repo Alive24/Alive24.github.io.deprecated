@@ -17,50 +17,28 @@ reward:
       icon: icon-wechat-pay-line
     - name: 爱发电
       path: https://github.com/Alive24/Alive24.github.io/raw/hexo/source/_posts/_data/images/afdian-Alive24.png
-      color: "#2DC100"
-      icon: icon-alipay-line
+      color: "#FFB6C1"
+      icon: icon-heart-line
 
 comment:
   tips:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Alive24/Alive24.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
 
 mode: auto
-# waline:
-#   enable: true
-#   serverURL: https://waline.yunyoujun.cn
-#   visitor: true
-#   comment: true
-#   avatarCDN: https://cdn.v2ex.com/gravatar/
-#   placeholder: 填写邮箱，可以收到回复通知哦～
-#   requiredFields: ["nick"]
+
 
 github_issues:
   enable: true
+  username: Alive24
+  repository: Alive24.github.io
+  filters: is:issue
 
+# https://docs.github.com/cn/free-pro-team@latest/discussions/quickstart
 github_discussions:
   enable: true
+  username: Alive24
+  repository: Alive24.github.io
 
-# disqusjs:
-#   enable: false
-#   shortname: yunyoujun
-#   apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
-
-# footer:
-#   since: 2016
-#   icon:
-#     url: https://sponsors.yunyoujun.cn
-#     title: 云游君的赞助者们
-#   beian:
-#     enable: true
-#     icp: 苏ICP备17038157号
-#   support:
-#     enable: true
-#     title: 又拍云
-#     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
-#     logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
-#     prefix: 本网站由
-#     suffix: 提供 CDN 加速
-#   custom_text:
 
 engine_search:
   enable: false
@@ -194,11 +172,11 @@ social:
     icon: icon-bilibili-line
     color: "#FF8EB3"
   # - name: 微信公众号
-  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #   link: 
   #   icon: icon-wechat-2-line
   #   color: "#1AAD19"
   # - name: Twitter
-  #   link: https://twitter.com/YunYouJun
+  #   link: 
   #   icon: icon-twitter-line
   #   color: "#1da1f2"
   - name: Telegram
