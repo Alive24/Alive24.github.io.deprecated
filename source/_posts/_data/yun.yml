@@ -8,20 +8,17 @@ reward:
   comment: 我很可爱，请给我钱
   methods:
     - name: 支付宝
-      path: /images/tips-alipay.png
+      path: https://github.com/Alive24/Alive24.github.io/raw/hexo/source/_posts/_data/images/tips-alipay.png
       color: "#00A3EE"
       icon: icon-alipay-line
-    - name: QQ 支付
-      path: 
-      color: "#12B7F5"
-      icon: icon-qq-line
     - name: 微信支付
-      path: 
+      path: https://github.com/Alive24/Alive24.github.io/raw/hexo/source/_posts/_data/images/tips-wechat.png
       color: "#2DC100"
       icon: icon-wechat-pay-line
     - name: 爱发电
-      path: 
+      path: https://github.com/Alive24/Alive24.github.io/raw/hexo/source/_posts/_data/images/afdian-Alive24.png
       color: "#2DC100"
+      icon: icon-alipay-line
 
 comment:
   tips:
@@ -90,9 +87,9 @@ search:
 #   enable: true
 #   client: ca-pub-2245427233262012
 
-# post_edit:
-#   enable: true
-#   url: https://github.com/Alive24/Alive24.github.io/tree/hexo/source/
+post_edit:
+  enable: true
+  url: https://github.com/Alive24/Alive24.github.io/tree/hexo/source/
 
 albums:
   enable: true
@@ -174,3 +171,37 @@ codeblock:
   prismjs:
     light: default
     dark: tomorrow
+
+social:
+  - name: GitHub
+    link: https://github.com/Alive24
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:xct24@live.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微博
+    link: https://weibo.com/alive24
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 知乎
+    link: https://www.zhihu.com/people/Alive24
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/817008
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  # - name: 微信公众号
+  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #   icon: icon-wechat-2-line
+  #   color: "#1AAD19"
+  # - name: Twitter
+  #   link: https://twitter.com/YunYouJun
+  #   icon: icon-twitter-line
+  #   color: "#1da1f2"
+  - name: Telegram
+    link: https://t.me/Aaaaaaaalive24
+    icon: icon-telegram-line
+    color: "#0088CC"
