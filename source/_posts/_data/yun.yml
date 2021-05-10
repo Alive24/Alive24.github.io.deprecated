@@ -1,0 +1,176 @@
+avatar:
+  url: https://avatars.githubusercontent.com/u/20827211?s=400&u=fc3811096daf6fb2070499d7178a62a3400c9adf&v=4 # 你的头像图片地址
+  rounded: true
+  opacity: 1
+
+reward:
+  enable: true
+  comment: 我很可爱，请给我钱
+  methods:
+    - name: 支付宝
+      path: /images/tips-alipay.png
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: QQ 支付
+      path: 
+      color: "#12B7F5"
+      icon: icon-qq-line
+    - name: 微信支付
+      path: 
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+    - name: 爱发电
+      path: 
+      color: "#2DC100"
+
+comment:
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/Alive24/Alive24.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+mode: auto
+# waline:
+#   enable: true
+#   serverURL: https://waline.yunyoujun.cn
+#   visitor: true
+#   comment: true
+#   avatarCDN: https://cdn.v2ex.com/gravatar/
+#   placeholder: 填写邮箱，可以收到回复通知哦～
+#   requiredFields: ["nick"]
+
+github_issues:
+  enable: true
+
+github_discussions:
+  enable: true
+
+# disqusjs:
+#   enable: false
+#   shortname: yunyoujun
+#   apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# footer:
+#   since: 2016
+#   icon:
+#     url: https://sponsors.yunyoujun.cn
+#     title: 云游君的赞助者们
+#   beian:
+#     enable: true
+#     icp: 苏ICP备17038157号
+#   support:
+#     enable: true
+#     title: 又拍云
+#     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
+#     logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+#     prefix: 本网站由
+#     suffix: 提供 CDN 加速
+#   custom_text:
+
+engine_search:
+  enable: false
+
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+search:
+  modal: true
+
+
+# If you want to use it, you need config algolia appID in _config.yml!!!
+# https://github.com/oncletom/hexo-algolia
+# algolia_search:
+#   enable: true
+#   # ...
+
+# google_analytics:
+#   enable: true
+#   id: UA-121354150-1
+
+# google_adsense:
+#   enable: true
+#   client: ca-pub-2245427233262012
+
+# post_edit:
+#   enable: true
+#   url: https://github.com/Alive24/Alive24.github.io/tree/hexo/source/
+
+albums:
+  enable: true
+
+girls:
+  enable: true
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: "#21374b"
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: "#0078e7"
+  随笔: mediumpurple
+  Blender: "#d04d2d"
+  Linux: "#2577b1"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+# categories:
+#   云游的小视频: "#FB7299"
+
+pages:
+  # - name: 我的小伙伴们
+  #   url: /links/
+  #   icon: icon-genderless-line
+  #   color: dodgerblue
+  # - name: 喜欢的女孩子
+  #   url: /girls/
+  #   icon: icon-women-line
+  #   color: hotpink
+
+colors:
+  primary: "#FF6633"
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+# google_tagmanager:
+#   enable: true
+#   id: GTM-M9KWR9L
+
+# wordcount:
+#   enable: true
+
+say:
+  enable: false
+
+bg_image:
+  enable: false
+
+fireworks:
+  enable: true
+  colors:
+    - "255, 128, 64"
+    - "255, 145, 90"
+    - "255, 162, 115"
+
+banner:
+  enable: false
+
+sidebar:
+  bg_image: false
+
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
